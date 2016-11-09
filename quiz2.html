@@ -1,41 +1,74 @@
-<doctype html>
+<doctype !html>
 <html lang="en">
 <head>
 	<meta charset="UTF-400000">
-	
+	<meta meta content="author: Yuefu Jiang" >
+
+	<title>Debugging Code?</title>
+	<link rel="stylesheet" href="./css/quiz2.css">
+
 </head>
+
 <body>
+
 	<h1>Welcome To The Wonderful World of Debugging Code</h1>
 
 	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
-
+		<div>
+		  <p>This is a paragraph, I promise.</p>
+		</div>
+		<nav>
 		<ul class="links">
 			<li>
-				<a>Link 1<a>
+				<a href="#">Link 1</a>
 			</li>
 			<li>
 				<a href="#">Link 2</a>
 			</li>
 			<li>
-				<a href="#">Link 487
+				<a href="#">Link 487</a>
 			</li>
 		</ul>
+		</nav>
+	</section>
+
 	
-
-	<p>I am a lonely paragraph, with no immediate parent.</p>
-
-	<section id=secondarySection>
+	<div>
+	  <p>I am a lonely paragraph, with no immediate parent.</p>
+	</div>
+	
+	<section id="secondarySection">
 		<p>Woop woop!!!</p>
 		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
+		<p>Yeah, we're spaced out alright.</p>
 		
-		<ol>
-			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
-			<li>That was a really bad joke.</li>
-		<ol>
+		<ol id="orderedList" onload="changeColor()">
+			<li id="orderedList1">I'm like an unordered list</li>	
+			<li id="orderedList2">But I'm more orderly</li>
+			<li id="orderedList3">That was a really bad joke.</li>
+		</ol>
 	</section>
-	
+
+	<section id ="section3" onload="accordion()">
+		<button class="accordion">accordion01</button>
+			<div id="sub01">
+  				<p>do rei mi</p>
+			</div>
+		<button class="accordion">accordion02</button>
+			<div id="sub02">
+  				<p>fa so la</p>
+			</div>
+		<button class="accordion">accordion03</button>
+			<div id="sub03">
+  				<p>ti</p>
+			</div>
+		<div>
+			<button class="Bye" onclick="Goodbye()">Good Bye Button</button>
+		</div>
+
+	</section>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="./js/quiz2.js" type="text/javascript"></script>
 </body>
 </hmtl>
